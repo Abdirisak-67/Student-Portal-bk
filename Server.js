@@ -18,7 +18,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://examination-omega.vercel.app'
+    'https://examination-omega.vercel.app',
+    'https://student-portal-seven-bay.vercel.app'
   ],
   credentials: true
 }));
